@@ -1,3 +1,7 @@
+from PIL import Image
 
-print(123)
-print(123)
+
+image = Image.open("images/1.png")
+
+image.show()
+image.close()
